@@ -1,0 +1,96 @@
+# Зависимости
+/node_modules
+/.pnp
+.pnp.js
+.pnp.*
+.yarn/*
+!.yarn/patches
+!.yarn/plugins
+!.yarn/releases
+!.yarn/sdks
+!.yarn/versions
+
+# Логи
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+lerna-debug.log*
+
+# Сборка
+/build
+/dist
+/.next
+/out
+
+# Кэш
+.cache/
+.parcel-cache/
+/.vite
+
+# Файлы окружения
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+.env*.local
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+Thumbs.db
+
+# Тесты
+/coverage
+/.nyc_output
+
+# Отчеты
+*.tsbuildinfo
+
+# Debug
+*.log
+
+# Временные файлы
+*.tmp
+*.temp
+
+# Установщики
+*.msi
+*.exe
+
+# Архивы
+*.zip
+*.tar.gz
+*.rar
+
+# ESLint
+.eslintcache
+
+# Prettier
+.prettiercache
+
+# TypeScript
+*.tsbuildinfo
+
+# Миграции
+*.sqlite
+*.db
+*.db-journal
+
+# Докер
+.docker/
+docker-compose.override.yml
+
+# Системные файлы
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
